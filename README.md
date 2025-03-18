@@ -4,8 +4,8 @@ Purpose: The adhoc python environment provides a quick way to do analysis with p
 
 Setup: This environment relies on pyenv to manage python versions and poetry to manage package versions so both of those will need to be installed.
 
-#### download this github repo and navigate to the folder poetry-python-environment
-`git clone git@github.com:tasty-data/poetry-python-environment`
+#### download this github repo and navigate to the folder datateam-python-env
+`git clone git@github.com:tasty-data/datateam-python-env`
 
 
 #### Setup pyenv
