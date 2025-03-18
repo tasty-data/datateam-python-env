@@ -45,7 +45,7 @@ then run
 2. Then run the test script. You will have to do 2FA via Duo. You should see your version of python followed by 10 rows of marts.fct_trades.
 `python test_adhoc_env.py`
 
-Check that you have the correct environment selected by navigating to the select interpreter section in the top middle and ensuring that 'datateam-env' is selected.
+Check that you have the correct environment selected by navigating to the select interpreter section in the top middle and ensuring that 'datateam-env' is selected. The interpreter is also visable on the bottom right and that should also say "datateam-env".
 
 ![Screenshot 2025-03-18 at 10 19 01 AM](https://github.com/user-attachments/assets/01dc6f37-ae52-47a4-ba25-f8dbd9ff8abe)
 
