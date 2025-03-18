@@ -43,7 +43,7 @@ then run
 `pip install -r requirements.txt`
 
 2. Then run the test script. You will have to do 2FA via Duo. You should see your version of python followed by 10 rows of marts.fct_trades.
-
+`python test_adhoc_env.py`
 
 #### Note
 To be able to connect to snowflake: you need environmental variables set up in your .zshrc. Go into your .zshrc which is in your root directory and add the following lines: \
@@ -54,8 +54,16 @@ Replace the username and password with your own.
 
 Then run `source .zshrc` in your terminal to reload your zshrc.
 
-#### Testing that the environment works.
-In a terminal, navigate to the folder the custom environment lives in. It should be something like '/Users/<your username>/tastydata/poetry-python-environment'.
+Also ensure your Code/snowflake_connector.py file is set up correctly. There are instructions for this in the onboarding script.
 
-Once in that folder run `code .` to open up VS Code. In VS Code open up a terminal there by navigating to the terminal button on the top menu and clicking 'New Terminal'.
+#### What should I do if I have the old poetry python environment set up.
+The steps are very similar and you should already have pyenv and venv installed. 
+1. Remove the pyproject.toml and then poetry.lock 
+2. Run the lines that install the newest version of python and then install the virtual environment. Test by running a python script where you connect to snowflake.
+`pyenv install 3.11.11`
+`pyenv shell 3.11.11`
+`python3.11 -m venv datateam-env`
+`pip install -r requirements.txt`
+
+
 
