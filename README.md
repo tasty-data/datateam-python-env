@@ -45,6 +45,11 @@ then run
 2. Then run the test script. You will have to do 2FA via Duo. You should see your version of python followed by 10 rows of marts.fct_trades.
 `python test_adhoc_env.py`
 
+Check that you have the correct environment selected by navigating to the select interpreter section in the top middle and ensuring that 'datateam-env' is selected.
+
+![Screenshot 2025-03-18 at 10 19 01 AM](https://github.com/user-attachments/assets/01dc6f37-ae52-47a4-ba25-f8dbd9ff8abe)
+
+
 #### Note
 To be able to connect to snowflake: you need environmental variables set up in your .zshrc. Go into your .zshrc which is in your root directory and add the following lines: \
 Replace the username and password with your own.
@@ -61,9 +66,14 @@ The steps are very similar and you should already have pyenv and venv installed.
 1. Remove the pyproject.toml and then poetry.lock 
 2. Run the lines that install the newest version of python and then install the virtual environment. Test by running a python script where you connect to snowflake.
 `pyenv install 3.11.11`
+
 `pyenv shell 3.11.11`
+
 `python3.11 -m venv datateam-env`
+
 `pip install -r requirements.txt`
+
+
 
 
 
