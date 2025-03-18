@@ -49,6 +49,9 @@ Check that you have the correct environment selected by navigating to the select
 
 ![Screenshot 2025-03-18 at 10 19 01 AM](https://github.com/user-attachments/assets/01dc6f37-ae52-47a4-ba25-f8dbd9ff8abe)
 
+![image](https://github.com/user-attachments/assets/b1e63bdb-e109-4e5e-b3cf-ad7a5ee1d862)
+
+
 
 #### Note
 To be able to connect to snowflake: you need environmental variables set up in your .zshrc. Go into your .zshrc which is in your root directory and add the following lines: \
