@@ -66,8 +66,9 @@ Also ensure your Code/snowflake_connector.py file is set up correctly. There are
 
 #### What should I do if I have the old poetry python environment set up.
 The steps are very similar and you should already have pyenv and venv installed. 
-1. Remove the pyproject.toml and then poetry.lock 
-2. Run the lines that install the newest version of python and then install the virtual environment. Test by running a python script where you connect to snowflake.
+1. Remove the pyproject.toml and then poetry.lock
+2. Add the requirements.txt from this github repo to the location you are running adhoc python analyzes if it is different from this repo. You may need to add manually.
+3. Run the lines that install the newest version of python and then install the virtual environment. Test by running a python script where you connect to snowflake.
 `pyenv install 3.11.11`
 
 `pyenv shell 3.11.11`
