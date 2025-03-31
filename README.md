@@ -38,6 +38,15 @@ then run
 
 `python3.11 -m venv datateam-env`
 
+#### Activate your virtual environment
+source <YOUR DIRECTORY>/datateam-env/bin/activate
+
+You should see the environment name "datateam-env" pop up in your terminal. This is needed before you install packages to the venv to ensure that the packages install in the right place.
+
+<img width="818" alt="image" src="https://github.com/user-attachments/assets/53aaac21-5b0a-4af8-bebc-b256800efe88" />
+
+
+
 #### install packages to venv and test it
 1. Now that we have our virtual environment and our correct version of python, we just need to download the requirement.txt packages to the virtual environment.
 `pip install -r requirements.txt`
