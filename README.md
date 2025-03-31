@@ -39,7 +39,7 @@ then run
 `python3.11 -m venv datateam-env`
 
 #### Activate your virtual environment
-source <YOUR DIRECTORY>/datateam-env/bin/activate
+source YOURDIRECTORY/datateam-env/bin/activate
 
 You should see the environment name "datateam-env" pop up in your terminal. This is needed before you install packages to the venv to ensure that the packages install in the right place.
 
