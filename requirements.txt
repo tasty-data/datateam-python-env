@@ -25,14 +25,14 @@ pmdarima==2.0.4
 pre-commit==3.6.2
 pyarrow==15.0.0
 python-dotenv==1.0.1
-requests==2.31.0
+requests==2.32.4
 ruptures==1.1.9
 scikit-learn==1.6.1
 scikit-survival==0.24.0
 scipy==1.12.0
 seaborn==0.13.2
 snowflake>=1.0.0
-snowflake-connector-python[pandas,secure-local-storage]==3.14.0
+snowflake-connector-python[pandas,secure-local-storage]==3.15.0
 snowflake-sqlalchemy==1.5.1
 statsmodels==0.14.1
 tabpy==2.11.0
